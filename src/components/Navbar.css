@@ -1,0 +1,78 @@
+/* Custom Styles for Navbar */
+.navbar {
+    background: linear-gradient(to left, rgba(0, 187, 255, 0.738), rgba(227, 16, 223, 0.766));
+}
+
+.custom-logo {
+    height: 75px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.custom-nav-links {
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-link {
+    color: #cabfbf;
+    margin-left: 80px;
+    font-size: 1.2rem;
+    /* Increase font size */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: orange;
+    /* Hover background color */
+    color: green;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    .custom-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+}
+
+.suggestions-list {
+    position: sticky;
+    z-index: 1000;
+    background-color: rgb(9, 6, 6);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #d61a1a;
+}
+
+.suggestions-list li {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #4e1ae9;
+}

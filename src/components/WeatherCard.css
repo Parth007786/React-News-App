@@ -1,0 +1,45 @@
+/* WeatherCard.css */
+.card {
+    width: 100%;
+}
+
+/* Navbar.css */
+.suggestions-list {
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Additional styles to ensure full-width and responsive design */
+.container-fluid {
+    padding: 0 15px;
+}
+
+.navbar .custom-logo {
+    height: 40px;
+}
+
+.navbar .custom-form {
+    position: relative;
+    width: 100%;
+}
+
+.navbar .custom-form .input-group {
+    width: 100%;
+}
